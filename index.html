@@ -147,26 +147,27 @@
           <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
           <h2 class="text-white mb-5">Quiero saber más!</h2>
 
-          <form class="container row text-justify" method="POST" data-netlify="true">
-            <input type="email" class="form-control mr-0 mr-sm-2 mb-3 mb-sm-0 " id="inputEmail" placeholder="Enter email address..." required>
+          <form class="container row text-justify" name="contacto" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+            <input type="text email" name="email" class="form-control mr-0 mr-sm-2 mb-3 mb-sm-0 " id="inputEmail" placeholder="Ingresa tu dirección correo electrónico..." required>
               <div class="form-check text-white col-12">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="cat" value="option1">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="cat" value="cat">
                 <label class="form-check-label bg-radio" for="exampleRadios1">
                   Deseo recibir el catalogo completo de productos.
                 </label>
               </div>
               <div class="form-check text-white col-12">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="con" value="option2">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="con" value="con">
                 <label class="form-check-label bg-radio" for="exampleRadios2">
                   Deseo recibir información acerca de como formar parte de Swiss Just.
                 </label>
               </div>
               <div class="form-check text-white col-12">
-                <input class="form-check-input" type="radio" name="exampleRadios" id="cat-con" value="option3" checked>
+                <input class="form-check-input" type="radio" name="exampleRadios" id="cat-con" value="cat-con" checked>
                 <label class="form-check-label bg-radio" for="exampleRadios3">
                   Deseo recibir el catalogo de productos e información acerca de como formar parte de Swiss Just.
                 </label>
               </div>
+              <div data-netlify-recaptcha="true"></div>
             <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
             
           </form>
