@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Grayscale - Start Bootstrap Theme</title>
+  <title>Graciela Centini - Consultora Independiente Just</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -61,7 +61,7 @@
         <div class="col-lg-8 mx-auto">
           <img src="img/Just1.png" class="img-fluid mb-4 mt-n5" alt="Just" style="height: 300px;">
           <h2 class="text-black mb-4">Pioneros en Terapia Herbal</h2>
-          <p class="text-black">Desde sus principios, Just fue creada para liberar la
+          <p class="text-black-50">Desde sus principios, Just fue creada para liberar la
           excelencia de la naturaleza -y sus poderes restauradores-
           buscando llegar a miles de personas alrededor del mundo..</p>
         </div>
@@ -147,9 +147,28 @@
           <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
           <h2 class="text-white mb-5">Quiero saber más!</h2>
 
-          <form class="form-inline d-flex">
-            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
+          <form class="container row text-justify" method="POST" data-netlify="true">
+            <input type="email" class="form-control mr-0 mr-sm-2 mb-3 mb-sm-0 " id="inputEmail" placeholder="Enter email address..." required>
+              <div class="form-check text-white col-12">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="cat" value="option1">
+                <label class="form-check-label bg-radio" for="exampleRadios1">
+                  Deseo recibir el catalogo completo de productos.
+                </label>
+              </div>
+              <div class="form-check text-white col-12">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="con" value="option2">
+                <label class="form-check-label bg-radio" for="exampleRadios2">
+                  Deseo recibir información acerca de como formar parte de Swiss Just.
+                </label>
+              </div>
+              <div class="form-check text-white col-12">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="cat-con" value="option3" checked>
+                <label class="form-check-label bg-radio" for="exampleRadios3">
+                  Deseo recibir el catalogo de productos e información acerca de como formar parte de Swiss Just.
+                </label>
+              </div>
             <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+            
           </form>
 
         </div>
@@ -158,7 +177,7 @@
   </section>
 
   <!-- Contact Section -->
-  <section class="contact-section">
+  <section class="contact-section bg-black">
     <div class="container">
 
       <div class="row">

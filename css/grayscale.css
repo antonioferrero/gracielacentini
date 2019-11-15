@@ -3,7 +3,6 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
-
 #mainNav {
   min-height: 56px;
   background-color: #64a19d;
@@ -151,7 +150,11 @@
     width: 30%;
   }
 }
-
+.bg-radio{
+  font-weight: bold;
+  font-size: large;
+  background-color: rgba(100, 200, 142, 0.692);
+}
 .signup-section {
   padding: 10rem 0;
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/lavender.jpg");
