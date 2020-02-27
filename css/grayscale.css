@@ -44,7 +44,6 @@
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
-    padding: .5rem 0;
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link {
@@ -277,6 +276,11 @@ footer {
   #logojust{
     transform: scaley(0.8);
   }
+  #subtitle{
+    float: left;
+    font-size: small;
+    color: #ffffff;
+  }
 }
 @media only screen and (max-width: 900px) and (min-width: 200px) {
   #mainNav{
@@ -287,4 +291,20 @@ footer {
   .videia{
     min-width: 100vw;
   }
+  #subtitle{
+    color: blueviolet;
+  }
+}
+#title{
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: #467370;
+}
+#subtitle{
+  font-size: small;
+  margin-right: auto;
+}
+#text-blac{
+  font-size: large;
+  font-weight: bolder;
 }
