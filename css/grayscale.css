@@ -249,3 +249,37 @@ a:focus, a:hover {
 footer {
   padding:1rem 0;
 }
+
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+  .videia{
+    min-width: 900px;
+    margin-left: -60px;
+  }
+}
+
+@media only screen and (max-width: 650px) and (min-width: 550px) {
+  .videia{
+    min-width: 700px;
+    margin-left: -60px;
+  }
+}
+@media only screen and (max-width: 500px) and (min-width: 400px) {
+  .videia{
+    min-width: 600px;
+    margin-left: -50px;
+  }
+}
+@media only screen and (max-width: 399px) and (min-width: 200px) {
+  .videia{
+    min-width: 400px;
+    margin-left: -40px;
+  }
+  #logojust{
+    transform: scaley(0.8);
+  }
+}
+@media only screen and (max-width: 900px) and (min-width: 200px) {
+  #mainNav{
+    position: sticky;
+  }
+}
