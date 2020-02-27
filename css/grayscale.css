@@ -283,3 +283,8 @@ footer {
     position: sticky;
   }
 }
+@media only screen and (min-width: 1990px) {
+  .videia{
+    min-width: 100vw;
+  }
+}
